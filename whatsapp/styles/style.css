@@ -39,7 +39,7 @@ header {
 main {
     box-sizing: border-box;
     height: calc(100% - 70px);
-    padding-top: 60px;
+    padding-top: 80px;
     overflow: hidden;
     display: flex;
     flex-flow: column nowrap;
@@ -133,7 +133,7 @@ footer div p {
 
 .left {
     align-self: flex-start;
-    background-color: #222;
+    background-color: #274747;
 }
 .left::before {
     content: '';
@@ -141,7 +141,7 @@ footer div p {
     left: -10px;
     top: 0;
     border: 10px solid transparent;
-    border-top: 10px solid #222;
+    border-top: 10px solid #274747;
 }
 
 .right {
