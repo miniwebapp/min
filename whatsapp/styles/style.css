@@ -26,7 +26,7 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: #2a4a4a;
     height: 70px;
     display: flex;
     justify-content: flex-end;
@@ -93,7 +93,7 @@ footer {
     display: flex;
     height: 50px;
     width: 50px;
-    background-color: mediumaquamarine;
+    background-color: #2f4f4f;
     border: 0;
     border-radius: 100%;
     justify-content: center;
@@ -129,6 +129,7 @@ footer div p {
 
 .left {
     align-self: flex-start;
+    background-color: #222;
 }
 .left::before {
     content: '';
@@ -136,7 +137,7 @@ footer div p {
     left: -10px;
     top: 0;
     border: 10px solid transparent;
-    border-top: 10px solid #2f4f4f;
+    border-top: 10px solid #222;
 }
 
 .right {
