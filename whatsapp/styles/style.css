@@ -27,7 +27,7 @@ body {
 
 header {
     background-color: #222;
-    height: 50px;
+    height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -38,7 +38,7 @@ header {
 
 main {
     box-sizing: border-box;
-    height: calc(100% - 60px);
+    height: calc(100% - 70px);
     padding-top: 60px;
     overflow: hidden;
     display: flex;
