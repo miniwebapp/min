@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Prank chat and chat without saving number",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "/whatsapp/icons/fox-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Mini whatsapp",
+  "short_name": "miniwp",
+  "start_url": "/whatsapp/index.html"
+}

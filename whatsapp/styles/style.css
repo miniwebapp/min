@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #eee;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+svg {
+    fill: #eee;
+    min-height: 20px;
+    min-width: 20px;
+    max-height: 20px;
+    max-width: 20px;
+    padding: 0 15px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./../images/background.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #222;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    box-sizing: border-box;
+    height: calc(100% - 60px);
+    padding-top: 60px;
+    overflow: hidden;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+#dp {
+    min-height: 40px;
+    min-width: 40px;
+    border: 0;
+    border-radius: 100%;
+    background-image:url("./../images/dp.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#phonenumber {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-left: 10px;
+}
+
+input {
+    background-color: inherit;
+    color: #eee;
+    font-size: 1rem;
+    border: 0;
+    width: 14ch;
+    outline: none;
+}
+#leftnavarea {
+    display: flex;
+    width: calc(100% - 150px);
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+footer {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 4px;
+    display: flex;
+    padding: 0 5px 0 5px ;
+    box-sizing: border-box;
+}
+
+.sendbutton {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    background-color: mediumaquamarine;
+    border: 0;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.typingarea {
+    display: flex;
+    box-sizing: border-box;
+    flex-grow: 1;
+    background-color: darkslategrey;
+    border: 0;
+    border-radius: 80px;
+    align-items: center
+}
+
+#messagearea {
+    width: 100%;
+}
+
+footer div p {
+    flex-grow: 1;
+}
+
+.chat {
+    margin: 10px 20px 0 20px;
+    border-radius: 10px;
+    max-width: 60%;
+    padding: 5px 10px 10px 10px;
+    position: relative;
+    background-color: #2f4f4f;
+}
+
+.left {
+    align-self: flex-start;
+}
+.left::before {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #2f4f4f;
+}
+
+.right {
+    align-self: flex-end;
+}
+.right::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: 0;
+    border: 10px solid transparent;
+    border-top: 10px solid #2f4f4f;
+}
