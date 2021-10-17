@@ -10,8 +10,9 @@ deleteelement = (x) => {x.style.display = "none"}
 let message;
 let textmessage;
 let textnode;
-message = document.getElementsByTagName("input")[1].value;
+
 sendmessage = () => {
+  message = document.getElementsByTagName("input")[1].value;
     if(message !== "")
     {
         let node = document.createElement("div");
