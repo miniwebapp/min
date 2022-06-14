@@ -1,0 +1,47 @@
+[
+    {
+        "id": 10000,
+        "category": "ICAR-JRF",
+        "title": "Genetics",
+        "about": "Covers all chapters of genetics",
+        "price": 365,
+        "rating": 4.5,
+        "bestSeller": true,
+        "description": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "language": "English",
+        "tests": [
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180]
+        ]
+    },
+    {
+        "id": 10001,
+        "category": "ICAR-JRF",
+        "title": "Plant Breeding",
+        "about": "Covers all chapters of plant breeding",
+        "price": 30,   
+        "rating": 3.2,
+        "bestSeller": false,
+        "description": "Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica",
+        "tests": [
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180],
+            ["History", [1,4,1,1,1,1,1,1,1,1,1,1,1,1,1,1], 180]
+        ]
+    }
+]

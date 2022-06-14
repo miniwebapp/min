@@ -1,0 +1,1 @@
+import{u as s,a as n,F as e,j as a,L as o}from"./index.ba6a19aa.js";const i=()=>{const t=s();return n(e,{children:[a(o,{to:"/",children:"HOME"}),a("button",{onClick:()=>t(-1),children:"NAVIGATE"})]})};export{i as default};
